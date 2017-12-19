@@ -12,18 +12,18 @@ public class Main {
 
         Ceiling c1 =new Ceiling(5, "White");
 
-        Bed b = new Bed("regular", 2, 1,2,2);
-
-        Lamp l = new Lamp("Glass", true, 22);
-
-        Room r = new Room("BedRoom", w1,w2,w3,w4,c1,b,l);
-
-        //Room.java-->makeBed();
-        r.makeBed();
-        //Room.java-->Lamp.java-->turnOn();
-        r.getLamp().turnOn();
-
-        r.getHouse().roomCount();
+//        Bed b = new Bed("regular", 2, 1,2,2);
+//
+//        Lamp l = new Lamp("Glass", true, 22);
+//
+//        Room r = new Room("BedRoom", w1,w2,w3,w4,c1,b,1);
+//
+//        //Room.java-->makeBed();
+//        r.makeBed();
+//        //Room.java-->Lamp.java-->turnOn();
+//        r.getLamp().turnOn();
+//
+//        r.getHouse().roomCount();
 
 
 
