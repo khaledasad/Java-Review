@@ -1,7 +1,5 @@
 package AbstractClasses;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 public abstract class Bird extends Animal implements CanFly{
 
     public Bird(String name) {
